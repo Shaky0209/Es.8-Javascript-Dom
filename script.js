@@ -31,7 +31,6 @@ let backgroundChange = ()=>{
     let body = document.getElementsByTagName("body");
     body[0].classList.add("backG");
     let myClass = body[0];
-    console.log(myClass);
     myClass.style.backgroundColor = "lightblue";
 }
 
@@ -52,7 +51,6 @@ let addressChange = ()=>{
 
 let addClassLink = ()=>{
     myLink = document.querySelectorAll("a");
-    console.log(myLink);
     for(i = 0; i < myLink.length; i++){
         myLink[i].classList.add("added-class");
     }
@@ -65,7 +63,6 @@ let addClassLink = ()=>{
 
 let displayImgToggle = ()=>{
     myImages = document.querySelectorAll("div.img");
-    console.log(myImages);
     for(i = 0; i < myImages.length; i++){
     myImages[i].classList.toggle("imgNone");
     }
