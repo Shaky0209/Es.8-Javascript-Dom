@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    background-color: rgb(180, 255, 180);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    align-items: center;
+    height: 60px;
+    color: green;
+    border-bottom: 1px solid blue;
+    background-color: rgb(209, 250, 148);
+}
+
+.down-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+button{
+    margin-top: 20px;
+}
+.obj{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    margin: 1vw;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.img{
+    width: 25vw;
+    height: 22vw;
+    margin: 1vw;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.first{
+    background-image: url(SamsungGalaxyZFold5.jpg);
+}
+
+.second{
+    background-image: url(XiaomiRedmiNote12Pro4G.jpg);
+}
+
+.third{
+    background-image: url(AppleIPhone13.jpg);
+}
+
+.fourth{
+    background-image: url(OppoA78.jpg);
+}
+
+.fifth{
+    background-image: url(MotorolaEdge40Neo.jpg);
+}
+
+.imgNone{
+    display: none;
+}
+
+.description{
+    width: 25vw;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 10px;
+    color: rgb(255, 68, 0);
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.added-class{
+    color: orangered;
+}
+
+.add-comment{
+    display: flax;
+    justify-content: center;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.add-comment input{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(209, 250, 148);
+    border-top: 1px solid blue;
+    
+
+}
+.footer-content{
+    padding-top: 60px;
+}
+
+.footer-content h3, p{
+    margin: 0;
+}
+
+@media screen and (max-width: 600px){
+    .obj{
+        flex-direction: column;
+    }
+    .description{
+        width: 80%;
+    }
+
+    .img{
+        width: 41vw;
+        height: 41vw;
+    }
+}
